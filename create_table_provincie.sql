@@ -4,7 +4,7 @@
 
 CREATE TABLE public.provincie
 (
-    id integer NOT NULL DEFAULT nextval('provincie_id_seq'::regclass),
+    id integer NOT NULL,
     geom geometry(Geometry,4326),
     provnaam character varying(20) COLLATE pg_catalog."default",
     CONSTRAINT provincie_pkey PRIMARY KEY (id)
