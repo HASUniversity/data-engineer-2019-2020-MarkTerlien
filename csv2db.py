@@ -20,20 +20,25 @@ conn = psycopg2.connect(DATABASE_CONNECTION)
 cur = conn.cursor()
 
 # Stap 3: Ophalen rij uit bestand
+line_nr = 0
 line = csv_file.readline()
 while line:
+    line_nr = line_nr + 1
     print(line)
     # Stap 4: Ophalen waardes uit rij
-    values = line.split(';')
-    id = values[3]
-    name = values[4]
-    alt = values[0]
-    x = float(values[2])
-    y = float(values[1])
-    # Stap 5: Samenstellen geometrie    
-    # Stap 6: Opstellen insert statement
-    # Stap 7: Uitvoeren insert statement
-    cur.execute("INSERT INTO public.meteo_stations(id, name, altitude, geom) VALUES (%s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s),4326) )",(id, name, alt, x, y ))
+    if line_nr > 1 :
+        values = line.split(';')
+        id = values[3]
+        name = values[4]
+        alt = values[0]
+        x = float(values[2])
+        y = float(values[1])
+        # Stap 5: Samenstellen geometrie    
+        # Stap 6: Opstellen insert statement
+        # Stap 7: Uitvoeren insert statement
+        cur.execute("INSERT INTO public.meteo_stations(id, name, altitude, geom) VALUES (%s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s),4326) )",(id, name, alt, x, y ))
+        # Commit
+        conn.commit()
     # Stap 8: Ophalen volgende rij    
     line = csv_file.readline()
 
