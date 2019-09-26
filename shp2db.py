@@ -32,13 +32,11 @@ while feature:
     provincienaam = feature.GetField('Provincien')
     print(id)
     print(provincienaam)
-    geom = feature.GetGeometryRef()
+    geom_wkt = feature.GetGeometryRef().ExportToWkt()
     # Stap 5: Samenstellen geometrie    
     # Stap 6: Opstellen insert statement
     # Stap 7: Uitvoeren insert statement
-    #cur.execute("INSERT INTO public.meteo_stations(id, name, altitude, geom) VALUES (%s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s),4326) )",(id, name, alt, x, y ))
-    # Commit
-    #conn.commit()
+    cur.execute("INSERT INTO public.provincie(id, provnaam, geom) VALUES (%s, %s, ST_Transform(ST_SetSRID(ST_GeomFromText(%s),28992),4326))",(id, provincienaam, geom_wkt))
     # Stap 8: Ophalen volgende rij    
     feature = layer.GetNextFeature()
 
@@ -46,4 +44,5 @@ while feature:
 
 # Stap 10: Sluiten database
 shp_file.Destroy()
+conn.commit()
 conn.close()
