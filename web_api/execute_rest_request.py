@@ -1,6 +1,10 @@
 # Import libraries
 import requests
 import json
+import psycopg2
+
+# Database connection parameters
+DATABASE_CONNECTION = "dbname=engineer1920 user=postgres password=postgres"
 
 # HTTP headers
 headerss = {
@@ -14,7 +18,9 @@ url = 'https://agrodatacube.wur.nl/api/v2/rest/meteodata?output_epsg=28992&meteo
 # Execute HTTP request
 response = requests.get(url, headers=headerss)
 
-# TO DO: Open database connection
+#  Open database connection
+conn = psycopg2.connect(DATABASE_CONNECTION)
+cur = conn.cursor()
 
 # Get result
 if response.status_code == 200 :
@@ -24,14 +30,21 @@ if response.status_code == 200 :
         for key in feature['properties'] :
             # Get attributes datum and mean temperature
             if key == 'datum' :
-                datum = key['datum']
-            # TO DO: Get mean temperature
-            # TO DO: Build and execute SQL INSERT statement nto table observations
+                datum = feature['properties'][key]
+                print(datum)
+            # Get attributes datum and mean temperature
+            if key == 'mean_temperature' :
+                mean_temperature = feature['properties'][key]
+                print(mean_temperature)
+        # Build and execute SQL INSERT statement nto table observations
+        sql_stmt = 'insert into observation (datum, mean_temperature, meteostationid) values (%s, %s, %s)'
+        cur.execute(sql_stmt,(datum, mean_temperature, 251))
 else :
     print ('Request failed with :' + str(response.status_code))
 
-# TO DO: Commit and close database connection
-
+# Commit and close database connection
+conn.commit()
+conn.close()
 
 
     
