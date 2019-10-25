@@ -1,0 +1,3136 @@
+{
+	"dateTime": "20191002, 16:00",
+	"roadEntries": [
+		{
+			"road": "A1",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102439",
+						"from": "Hoevelaken",
+						"fromLoc": {
+							"lat": 52.17043,
+							"lon": 5.43905
+						},
+						"to": "Barneveld",
+						"toLoc": {
+							"lat": 52.16757,
+							"lon": 5.56571
+						},
+						"location": "A1 Amsterdam richting Apeldoorn",
+						"segStart": "Amsterdam",
+						"segEnd": "Apeldoorn",
+						"start": "2019-10-02T13:51:30",
+						"startDate": "2 oktober 2019 15:51 uur",
+						"delay": 240.0,
+						"distance": 4700.0,
+						"reason": "",
+						"description": "Tussen Hoevelaken en Barneveld. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "203394234a",
+						"from": "afrit Markelo",
+						"fromLoc": {
+							"lat": 52.26259,
+							"lon": 6.45569
+						},
+						"to": "afrit Markelo",
+						"toLoc": {
+							"lat": 52.26259,
+							"lon": 6.45569
+						},
+						"location": "A1 Apeldoorn richting Hengelo",
+						"segStart": "Apeldoorn",
+						"segEnd": "Hengelo",
+						"start": "2019-09-22T22:00:00",
+						"startDate": "23 september 2019 00:00 uur",
+						"stop": "2019-10-14T03:00:00",
+						"stopDate": "14 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 23 september 2019 00:00 uur tot 14 oktober 2019 05:00 uur.",
+						"description": "Bij afrit Markelo. Afrit dicht. Van 23 september 2019 00:00 uur tot 14 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "203394234b",
+						"from": "afrit Markelo",
+						"fromLoc": {
+							"lat": 52.26259,
+							"lon": 6.45569
+						},
+						"to": "afrit Markelo",
+						"toLoc": {
+							"lat": 52.26259,
+							"lon": 6.45569
+						},
+						"location": "A1 Hengelo richting Apeldoorn",
+						"segStart": "Hengelo",
+						"segEnd": "Apeldoorn",
+						"start": "2019-09-22T22:00:00",
+						"startDate": "23 september 2019 00:00 uur",
+						"stop": "2019-10-14T03:00:00",
+						"stopDate": "14 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 23 september 2019 00:00 uur tot 14 oktober 2019 05:00 uur.",
+						"description": "Bij afrit Markelo. Afrit dicht. Van 23 september 2019 00:00 uur tot 14 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205709639",
+						"from": "Apeldoorn-Zuid",
+						"fromLoc": {
+							"lat": 52.17471,
+							"lon": 5.97786
+						},
+						"to": "Apeldoorn-Zuid",
+						"toLoc": {
+							"lat": 52.17471,
+							"lon": 5.97786
+						},
+						"location": "A1 Apeldoorn richting Amersfoort",
+						"segStart": "Apeldoorn",
+						"segEnd": "Amersfoort",
+						"start": "2019-10-02T19:00:00",
+						"startDate": "2 oktober 2019 21:00 uur",
+						"stop": "2019-10-04T03:30:00",
+						"stopDate": "4 oktober 2019 05:30 uur",
+						"reason": "Oprit dicht. Van 2 oktober 2019 21:00 uur tot 4 oktober 2019 05:30 uur.",
+						"description": "Bij Apeldoorn-Zuid. Oprit dicht. Van 2 oktober 2019 21:00 uur tot 4 oktober 2019 05:30 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A2",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102395",
+						"from": "afrit Valkenswaard",
+						"fromLoc": {
+							"lat": 51.34987,
+							"lon": 5.54248
+						},
+						"to": "knp. Batadorp",
+						"toLoc": {
+							"lat": 51.48316,
+							"lon": 5.40628
+						},
+						"location": "A2 Maastricht richting Eindhoven",
+						"segStart": "Maastricht",
+						"segEnd": "Eindhoven",
+						"start": "2019-10-02T13:40:30",
+						"startDate": "2 oktober 2019 15:40 uur",
+						"delay": 420.0,
+						"distance": 7100.0,
+						"reason": "",
+						"description": "Tussen afrit Valkenswaard en knp. Batadorp. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206098950",
+						"from": "knp. Oudenrijn naar de A12 richting Arnhem",
+						"fromLoc": {
+							"lat": 52.06395,
+							"lon": 5.07513
+						},
+						"to": "knp. Oudenrijn naar de A12 richting Arnhem",
+						"toLoc": {
+							"lat": 52.06395,
+							"lon": 5.07513
+						},
+						"location": "A2 's-Hertogenbosch richting Utrecht",
+						"segStart": "'s-Hertogenbosch",
+						"segEnd": "Utrecht",
+						"reason": "Wegwerkzaamheden. Verbindingsweg dicht.",
+						"description": "Bij knp. Oudenrijn naar de A12 richting Arnhem. Wegwerkzaamheden. Verbindingsweg dicht.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							},
+							{
+								"alertC": "478",
+								"text": "Verbindingsweg dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "206102394",
+						"from": "Vinkeveen",
+						"fromLoc": {
+							"lat": 52.22591,
+							"lon": 4.98426
+						},
+						"to": "Maarssen",
+						"toLoc": {
+							"lat": 52.11816,
+							"lon": 5.03346
+						},
+						"location": "A2 Amsterdam richting Utrecht",
+						"segStart": "Amsterdam",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:33:00",
+						"startDate": "2 oktober 2019 15:33 uur",
+						"delay": 480.0,
+						"distance": 5000.0,
+						"reason": "",
+						"description": "Tussen Vinkeveen en Maarssen. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102379",
+						"from": "Breukelen",
+						"fromLoc": {
+							"lat": 52.17215,
+							"lon": 4.98751
+						},
+						"to": "Maarssen",
+						"toLoc": {
+							"lat": 52.11816,
+							"lon": 5.03346
+						},
+						"location": "A2 Amsterdam richting Utrecht",
+						"segStart": "Amsterdam",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:33:00",
+						"startDate": "2 oktober 2019 15:33 uur",
+						"delay": 900.0,
+						"distance": 3900.0,
+						"reason": "Kapotte auto.",
+						"description": "Tussen Breukelen en Maarssen. Kapotte auto.",
+						"events": [
+							{
+								"alertC": "211",
+								"text": "Kapotte auto"
+							},
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102416",
+						"from": "afrit Geldermalsen",
+						"fromLoc": {
+							"lat": 51.87769,
+							"lon": 5.20972
+						},
+						"to": "Zaltbommel",
+						"toLoc": {
+							"lat": 51.79388,
+							"lon": 5.2582700000000008
+						},
+						"location": "A2 Utrecht richting 's-Hertogenbosch",
+						"segStart": "Utrecht",
+						"segEnd": "'s-Hertogenbosch",
+						"start": "2019-10-02T13:28:00",
+						"startDate": "2 oktober 2019 15:28 uur",
+						"delay": 240.0,
+						"distance": 3700.0,
+						"reason": "",
+						"description": "Tussen afrit Geldermalsen en Zaltbommel. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102430",
+						"from": "knp. Batadorp",
+						"fromLoc": {
+							"lat": 51.48316,
+							"lon": 5.40628
+						},
+						"to": "knp. De Hogt",
+						"toLoc": {
+							"lat": 51.4051,
+							"lon": 5.43166
+						},
+						"location": "A2 Eindhoven richting Maastricht",
+						"segStart": "Eindhoven",
+						"segEnd": "Maastricht",
+						"start": "2019-10-02T13:51:00",
+						"startDate": "2 oktober 2019 15:51 uur",
+						"delay": 300.0,
+						"distance": 3200.0,
+						"reason": "",
+						"description": "Tussen knp. Batadorp en knp. De Hogt. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102389",
+						"from": "Maarssen",
+						"fromLoc": {
+							"lat": 52.11791,
+							"lon": 5.03408
+						},
+						"to": "de Leidsche Rijntunnel",
+						"toLoc": {
+							"lat": 52.07714,
+							"lon": 5.07484
+						},
+						"location": "A2 Amsterdam richting Utrecht",
+						"segStart": "Amsterdam",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:37:00",
+						"startDate": "2 oktober 2019 15:37 uur",
+						"delay": 600.0,
+						"distance": 2600.0,
+						"reason": "Kapotte auto.",
+						"description": "Tussen Maarssen en de Leidsche Rijntunnel. Kapotte auto.",
+						"events": [
+							{
+								"alertC": "211",
+								"text": "Kapotte auto"
+							},
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "205709888",
+						"from": "Born",
+						"fromLoc": {
+							"lat": 51.03946,
+							"lon": 5.82529
+						},
+						"to": "Born",
+						"toLoc": {
+							"lat": 51.03946,
+							"lon": 5.82529
+						},
+						"location": "A2 Maastricht richting Eindhoven",
+						"segStart": "Maastricht",
+						"segEnd": "Eindhoven",
+						"start": "2019-10-02T18:30:00",
+						"startDate": "2 oktober 2019 20:30 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Oprit dicht. Van 2 oktober 2019 20:30 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij Born. Oprit dicht. Van 2 oktober 2019 20:30 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205319499",
+						"from": "Nieuwegein",
+						"fromLoc": {
+							"lat": 52.02208,
+							"lon": 5.06477
+						},
+						"to": "knp. Oudenrijn",
+						"toLoc": {
+							"lat": 52.06562,
+							"lon": 5.07012
+						},
+						"location": "A2 's-Hertogenbosch richting Utrecht",
+						"segStart": "'s-Hertogenbosch",
+						"segEnd": "Utrecht",
+						"start": "2019-09-26T19:00:00",
+						"startDate": "26 september 2019 21:00 uur",
+						"stop": "2019-11-08T04:00:00",
+						"stopDate": "8 november 2019 05:00 uur",
+						"reason": "Wegwerkzaamheden. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"description": "Tussen Nieuwegein en knp. Oudenrijn. Wegwerkzaamheden. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					}
+				],
+				"radars": [
+					{
+						"msgNr": "206063294",
+						"from": "Maarssen",
+						"fromLoc": {
+							"lat": 52.11816,
+							"lon": 5.03346
+						},
+						"to": "Breukelen",
+						"toLoc": {
+							"lat": 52.17215,
+							"lon": 4.98751
+						},
+						"loc": {
+							"lat": 52.14943,
+							"lon": 4.99904
+						},
+						"location": "A2 Utrecht richting Amsterdam",
+						"segStart": "Utrecht",
+						"segEnd": "Amsterdam",
+						"reason": "bij hectometerpaal 52,3.",
+						"description": "Tussen Maarssen en Breukelen bij hectometerpaal 52,3.",
+						"events": [
+							{
+								"alertC": "3101",
+								"text": "Snelheidscontrole"
+							}
+						]
+					},
+					{
+						"msgNr": "206093578",
+						"from": "knp. Holendrecht",
+						"fromLoc": {
+							"lat": 52.28645,
+							"lon": 4.94789
+						},
+						"to": "Abcoude",
+						"toLoc": {
+							"lat": 52.2643,
+							"lon": 4.96266
+						},
+						"loc": {
+							"lat": 52.2743,
+							"lon": 4.95687
+						},
+						"location": "A2 Amsterdam richting Utrecht",
+						"segStart": "Amsterdam",
+						"segEnd": "Utrecht",
+						"reason": "bij hectometerpaal 37,9.",
+						"description": "Tussen knp. Holendrecht en Abcoude bij hectometerpaal 37,9.",
+						"events": [
+							{
+								"alertC": "3101",
+								"text": "Snelheidscontrole"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"road": "A4",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102381",
+						"from": "knp. Kethelplein",
+						"fromLoc": {
+							"lat": 51.92719,
+							"lon": 4.36524
+						},
+						"to": "Rijswijk-Centrum",
+						"toLoc": {
+							"lat": 52.04282,
+							"lon": 4.34744
+						},
+						"location": "A4 Rotterdam richting Den Haag",
+						"segStart": "Rotterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T12:44:00",
+						"startDate": "2 oktober 2019 14:44 uur",
+						"delay": 540.0,
+						"distance": 11200.0,
+						"reason": "",
+						"description": "Tussen knp. Kethelplein en Rijswijk-Centrum. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102432",
+						"from": "knp. Badhoevedorp",
+						"fromLoc": {
+							"lat": 52.32863,
+							"lon": 4.79537
+						},
+						"to": "knp. De Nieuwe Meer",
+						"toLoc": {
+							"lat": 52.33712,
+							"lon": 4.8418
+						},
+						"location": "A4 Den Haag richting Amsterdam",
+						"segStart": "Den Haag",
+						"segEnd": "Amsterdam",
+						"start": "2019-10-02T13:37:00",
+						"startDate": "2 oktober 2019 15:37 uur",
+						"delay": 240.0,
+						"distance": 2000.0,
+						"reason": "",
+						"description": "Tussen knp. Badhoevedorp en knp. De Nieuwe Meer. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102372",
+						"from": "Schiphol",
+						"fromLoc": {
+							"lat": 52.30818,
+							"lon": 4.74771
+						},
+						"to": "Hoofddorp",
+						"toLoc": {
+							"lat": 52.28318,
+							"lon": 4.71964
+						},
+						"location": "A4 Amsterdam richting Den Haag",
+						"segStart": "Amsterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T12:38:00",
+						"startDate": "2 oktober 2019 14:38 uur",
+						"delay": 300.0,
+						"distance": 2300.0,
+						"reason": "",
+						"description": "Tussen Schiphol en Hoofddorp. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102368",
+						"from": "Hoofddorp",
+						"fromLoc": {
+							"lat": 52.28318,
+							"lon": 4.71964
+						},
+						"to": "knp. Burgerveen",
+						"toLoc": {
+							"lat": 52.23497,
+							"lon": 4.6507
+						},
+						"location": "A4 Amsterdam richting Den Haag",
+						"segStart": "Amsterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T12:38:00",
+						"startDate": "2 oktober 2019 14:38 uur",
+						"delay": 600.0,
+						"distance": 6800.0,
+						"reason": "",
+						"description": "Tussen Hoofddorp en knp. Burgerveen. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102426",
+						"from": "Hoogmade",
+						"fromLoc": {
+							"lat": 52.15781,
+							"lon": 4.54839
+						},
+						"to": "Zoeterwoude-Dorp",
+						"toLoc": {
+							"lat": 52.12969,
+							"lon": 4.49096
+						},
+						"location": "A4 Amsterdam richting Den Haag",
+						"segStart": "Amsterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T12:38:00",
+						"startDate": "2 oktober 2019 14:38 uur",
+						"delay": 180.0,
+						"distance": 2900.0,
+						"reason": "",
+						"description": "Tussen Hoogmade en Zoeterwoude-Dorp. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102369",
+						"from": "Industrieterrein Plaspoelpolder",
+						"fromLoc": {
+							"lat": 52.03713,
+							"lon": 4.33771
+						},
+						"to": "knp. Kethelplein",
+						"toLoc": {
+							"lat": 51.92719,
+							"lon": 4.36524
+						},
+						"location": "A4 Den Haag richting Rotterdam",
+						"segStart": "Den Haag",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:29:30",
+						"startDate": "2 oktober 2019 15:29 uur",
+						"delay": 2040.0,
+						"distance": 8400.0,
+						"reason": "",
+						"description": "Tussen Industrieterrein Plaspoelpolder en knp. Kethelplein. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102404",
+						"from": "Delft",
+						"fromLoc": {
+							"lat": 51.98352,
+							"lon": 4.32902
+						},
+						"to": "knp. Benelux",
+						"toLoc": {
+							"lat": 51.87334,
+							"lon": 4.39603
+						},
+						"location": "A4 Den Haag richting Rotterdam",
+						"segStart": "Den Haag",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:24:00",
+						"startDate": "2 oktober 2019 15:24 uur",
+						"delay": 360.0,
+						"distance": 5200.0,
+						"reason": "",
+						"description": "Tussen Delft en knp. Benelux. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "206050898",
+						"from": "Vlaardingen-Oost",
+						"fromLoc": {
+							"lat": 51.91096,
+							"lon": 4.36936
+						},
+						"to": "Vlaardingen-Oost",
+						"toLoc": {
+							"lat": 51.91096,
+							"lon": 4.36936
+						},
+						"location": "A4 Rotterdam richting Den Haag",
+						"segStart": "Rotterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T19:00:00",
+						"startDate": "2 oktober 2019 21:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij Vlaardingen-Oost. Afrit dicht. Van 2 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A6",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102448",
+						"from": "Almere-Regenboogbuurt",
+						"fromLoc": {
+							"lat": 52.3887,
+							"lon": 5.31816
+						},
+						"to": "Lelystad",
+						"toLoc": {
+							"lat": 52.48001,
+							"lon": 5.50212
+						},
+						"location": "A6 Muiden richting Lelystad",
+						"segStart": "Muiden",
+						"segEnd": "Lelystad",
+						"start": "2019-10-02T13:37:30",
+						"startDate": "2 oktober 2019 15:37 uur",
+						"delay": 180.0,
+						"distance": 2700.0,
+						"reason": "",
+						"description": "Tussen Almere-Regenboogbuurt en Lelystad. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102380",
+						"from": "Lelystad-Noord",
+						"fromLoc": {
+							"lat": 52.54798,
+							"lon": 5.5312
+						},
+						"to": "afrit Urk",
+						"toLoc": {
+							"lat": 52.64438,
+							"lon": 5.67499
+						},
+						"location": "A6 Lelystad richting Emmeloord",
+						"segStart": "Lelystad",
+						"segEnd": "Emmeloord",
+						"start": "2019-10-02T13:51:30",
+						"startDate": "2 oktober 2019 15:51 uur",
+						"delay": 1020.0,
+						"distance": 3000.0,
+						"reason": "",
+						"description": "Tussen Lelystad-Noord en afrit Urk. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102371",
+						"from": "Oosterzee",
+						"fromLoc": {
+							"lat": 52.87384,
+							"lon": 5.74568
+						},
+						"to": "knp. Joure",
+						"toLoc": {
+							"lat": 52.94602,
+							"lon": 5.80166
+						},
+						"location": "A6 Emmeloord richting Joure",
+						"segStart": "Emmeloord",
+						"segEnd": "Joure",
+						"start": "2019-10-02T11:09:00",
+						"startDate": "2 oktober 2019 13:09 uur",
+						"delay": 1800.0,
+						"distance": 4400.0,
+						"reason": "",
+						"description": "Tussen Oosterzee en knp. Joure. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A7",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102418",
+						"from": "knp. Zaandam",
+						"fromLoc": {
+							"lat": 52.45566,
+							"lon": 4.84141
+						},
+						"to": "Purmerend-Zuid",
+						"toLoc": {
+							"lat": 52.50365,
+							"lon": 4.93133
+						},
+						"location": "A7 Zaandam richting Hoorn",
+						"segStart": "Zaandam",
+						"segEnd": "Hoorn",
+						"start": "2019-10-02T13:42:30",
+						"startDate": "2 oktober 2019 15:42 uur",
+						"delay": 240.0,
+						"distance": 5400.0,
+						"reason": "",
+						"description": "Tussen knp. Zaandam en Purmerend-Zuid. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102373",
+						"from": "Wieringerwerf",
+						"fromLoc": {
+							"lat": 52.84282,
+							"lon": 5.01989
+						},
+						"to": "Breezanddijk",
+						"toLoc": {
+							"lat": 53.02215,
+							"lon": 5.2104
+						},
+						"location": "A7 Hoorn richting Zurich",
+						"segStart": "Hoorn",
+						"segEnd": "Zurich",
+						"start": "2019-10-02T13:46:00",
+						"startDate": "2 oktober 2019 15:46 uur",
+						"delay": 1260.0,
+						"distance": 3100.0,
+						"reason": "",
+						"description": "Tussen Wieringerwerf en Breezanddijk. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102405",
+						"from": "Breezanddijk",
+						"fromLoc": {
+							"lat": 53.02215,
+							"lon": 5.2104
+						},
+						"to": "Kornwerderzand",
+						"toLoc": {
+							"lat": 53.07495,
+							"lon": 5.34188
+						},
+						"location": "A7 Den Oever richting Zurich",
+						"segStart": "Den Oever",
+						"segEnd": "Zurich",
+						"start": "2019-10-02T12:55:30",
+						"startDate": "2 oktober 2019 14:55 uur",
+						"delay": 300.0,
+						"distance": 2700.0,
+						"reason": "",
+						"description": "Tussen Breezanddijk en Kornwerderzand. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102370",
+						"from": "Breezanddijk",
+						"fromLoc": {
+							"lat": 53.02215,
+							"lon": 5.2104
+						},
+						"to": "Den Oever",
+						"toLoc": {
+							"lat": 52.92921,
+							"lon": 5.03541
+						},
+						"location": "A7 Zurich richting Hoorn",
+						"segStart": "Zurich",
+						"segEnd": "Hoorn",
+						"start": "2019-10-02T13:42:30",
+						"startDate": "2 oktober 2019 15:42 uur",
+						"delay": 420.0,
+						"distance": 2800.0,
+						"reason": "",
+						"description": "Tussen Breezanddijk en Den Oever. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "206051160",
+						"from": "Zuidbroek",
+						"fromLoc": {
+							"lat": 53.16869,
+							"lon": 6.8623
+						},
+						"to": "Zuidbroek",
+						"toLoc": {
+							"lat": 53.16869,
+							"lon": 6.8623
+						},
+						"location": "A7 Groningen richting Duitse grens",
+						"segStart": "Groningen",
+						"segEnd": "Duitse grens",
+						"start": "2019-10-03T18:00:00",
+						"startDate": "3 oktober 2019 20:00 uur",
+						"stop": "2019-10-04T04:00:00",
+						"stopDate": "4 oktober 2019 06:00 uur",
+						"reason": "Oprit dicht. Van 3 oktober 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"description": "Bij Zuidbroek. Oprit dicht. Van 3 oktober 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205710135",
+						"from": "Den Oever",
+						"fromLoc": {
+							"lat": 52.92921,
+							"lon": 5.03541
+						},
+						"to": "Den Oever",
+						"toLoc": {
+							"lat": 52.92921,
+							"lon": 5.03541
+						},
+						"location": "A7 Hoorn richting Den Oever",
+						"segStart": "Hoorn",
+						"segEnd": "Den Oever",
+						"start": "2019-10-02T18:30:00",
+						"startDate": "2 oktober 2019 20:30 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Oprit dicht. Van 2 oktober 2019 20:30 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij Den Oever. Oprit dicht. Van 2 oktober 2019 20:30 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "198816494",
+						"from": "Breezanddijk",
+						"fromLoc": {
+							"lat": 53.02215,
+							"lon": 5.2104
+						},
+						"to": "Kornwerderzand",
+						"toLoc": {
+							"lat": 53.07495,
+							"lon": 5.34188
+						},
+						"location": "A7 Den Oever richting Zurich",
+						"segStart": "Den Oever",
+						"segEnd": "Zurich",
+						"start": "2019-07-01T04:00:00",
+						"startDate": "1 juli 2019 06:00 uur",
+						"stop": "2019-12-02T04:00:00",
+						"stopDate": "2 december 2019 05:00 uur",
+						"reason": "Wegwerkzaamheden. Van 1 juli 2019 06:00 uur tot 2 december 2019 05:00 uur.",
+						"description": "Tussen Breezanddijk en Kornwerderzand. Wegwerkzaamheden. Van 1 juli 2019 06:00 uur tot 2 december 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					},
+					{
+						"msgNr": "205710137",
+						"from": "Joure-West",
+						"fromLoc": {
+							"lat": 52.96332,
+							"lon": 5.76909
+						},
+						"to": "knp. Joure",
+						"toLoc": {
+							"lat": 52.94779,
+							"lon": 5.80297
+						},
+						"location": "A7 Afsluitdijk richting Heerenveen",
+						"segStart": "Afsluitdijk",
+						"segEnd": "Heerenveen",
+						"start": "2019-10-02T19:00:00",
+						"startDate": "2 oktober 2019 21:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Dicht. Van 2 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Tussen Joure-West en knp. Joure. Dicht. Van 2 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "402",
+								"text": "Dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "198816233",
+						"from": "knp. Zurich",
+						"fromLoc": {
+							"lat": 53.09577,
+							"lon": 5.38422
+						},
+						"to": "Breezanddijk",
+						"toLoc": {
+							"lat": 53.02215,
+							"lon": 5.2104
+						},
+						"location": "A7 Heerenveen richting Den Oever",
+						"segStart": "Heerenveen",
+						"segEnd": "Den Oever",
+						"start": "2019-07-01T11:28:00",
+						"startDate": "1 juli 2019 13:28 uur",
+						"stop": "2019-12-02T04:00:00",
+						"stopDate": "2 december 2019 05:00 uur",
+						"reason": "Wegwerkzaamheden. Van 1 juli 2019 13:28 uur tot 2 december 2019 05:00 uur.",
+						"description": "Tussen knp. Zurich en Breezanddijk. Wegwerkzaamheden. Van 1 juli 2019 13:28 uur tot 2 december 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					},
+					{
+						"msgNr": "205710009",
+						"from": "Den Oever",
+						"fromLoc": {
+							"lat": 52.92921,
+							"lon": 5.03541
+						},
+						"to": "Den Oever",
+						"toLoc": {
+							"lat": 52.92921,
+							"lon": 5.03541
+						},
+						"location": "A7 Den Oever richting Hoorn",
+						"segStart": "Den Oever",
+						"segEnd": "Hoorn",
+						"start": "2019-10-02T18:30:00",
+						"startDate": "2 oktober 2019 20:30 uur",
+						"stop": "2019-10-04T03:00:00",
+						"stopDate": "4 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 20:30 uur tot 4 oktober 2019 05:00 uur.",
+						"description": "Bij Den Oever. Afrit dicht. Van 2 oktober 2019 20:30 uur tot 4 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A9",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102377",
+						"from": "knp. Badhoevedorp",
+						"fromLoc": {
+							"lat": 52.32732,
+							"lon": 4.79414
+						},
+						"to": "knp. Rottepolderplein",
+						"toLoc": {
+							"lat": 52.38439,
+							"lon": 4.70737
+						},
+						"location": "A9 Amstelveen richting Alkmaar",
+						"segStart": "Amstelveen",
+						"segEnd": "Alkmaar",
+						"start": "2019-10-02T13:36:00",
+						"startDate": "2 oktober 2019 15:36 uur",
+						"delay": 840.0,
+						"distance": 6900.0,
+						"reason": "",
+						"description": "Tussen knp. Badhoevedorp en knp. Rottepolderplein. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102385",
+						"from": "Badhoevedorp",
+						"fromLoc": {
+							"lat": 52.34303,
+							"lon": 4.756
+						},
+						"to": "Amstelveen-Oost",
+						"toLoc": {
+							"lat": 52.29664,
+							"lon": 4.8793
+						},
+						"location": "A9 Alkmaar richting Diemen",
+						"segStart": "Alkmaar",
+						"segEnd": "Diemen",
+						"start": "2019-10-02T13:19:00",
+						"startDate": "2 oktober 2019 15:19 uur",
+						"delay": 420.0,
+						"distance": 7800.0,
+						"reason": "",
+						"description": "Tussen Badhoevedorp en Amstelveen-Oost. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "206056502",
+						"from": "afrit Haarlem-Zuid",
+						"fromLoc": {
+							"lat": 52.37293,
+							"lon": 4.71035
+						},
+						"to": "afrit Haarlem-Zuid",
+						"toLoc": {
+							"lat": 52.37293,
+							"lon": 4.71035
+						},
+						"location": "A9 Alkmaar richting Amstelveen",
+						"segStart": "Alkmaar",
+						"segEnd": "Amstelveen",
+						"start": "2019-10-03T21:00:00",
+						"startDate": "3 oktober 2019 23:00 uur",
+						"stop": "2019-10-04T03:00:00",
+						"stopDate": "4 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 3 oktober 2019 23:00 uur tot 4 oktober 2019 05:00 uur.",
+						"description": "Bij afrit Haarlem-Zuid. Afrit dicht. Van 3 oktober 2019 23:00 uur tot 4 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205710385",
+						"from": "Weesp",
+						"fromLoc": {
+							"lat": 52.31343,
+							"lon": 4.98834
+						},
+						"to": "Weesp",
+						"toLoc": {
+							"lat": 52.31343,
+							"lon": 4.98834
+						},
+						"location": "A9 Amstelveen richting Diemen",
+						"segStart": "Amstelveen",
+						"segEnd": "Diemen",
+						"start": "2019-10-02T21:00:00",
+						"startDate": "2 oktober 2019 23:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 23:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij Weesp. Afrit dicht. Van 2 oktober 2019 23:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A10",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102424",
+						"from": "knp. Amstel",
+						"fromLoc": {
+							"lat": 52.32834,
+							"lon": 4.91356
+						},
+						"to": "Amsterdam-Slotervaart",
+						"toLoc": {
+							"lat": 52.34572,
+							"lon": 4.84123
+						},
+						"location": "A10 knp. Amstel richting knp. Coenplein",
+						"segStart": "knp. Amstel",
+						"segEnd": "knp. Coenplein",
+						"start": "2019-10-02T13:47:30",
+						"startDate": "2 oktober 2019 15:47 uur",
+						"delay": 240.0,
+						"distance": 4700.0,
+						"reason": "",
+						"description": "Tussen knp. Amstel en Amsterdam-Slotervaart. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102437",
+						"from": "Amsterdam-Tuindorp Oostzaan",
+						"fromLoc": {
+							"lat": 52.4251,
+							"lon": 4.88949
+						},
+						"to": "Amsterdam-Hemhavens",
+						"toLoc": {
+							"lat": 52.40446,
+							"lon": 4.85347
+						},
+						"location": "A10 knp. Watergraafsmeer richting knp. De Nieuwe Meer",
+						"segStart": "knp. Watergraafsmeer",
+						"segEnd": "knp. De Nieuwe Meer",
+						"start": "2019-10-02T11:33:30",
+						"startDate": "2 oktober 2019 13:33 uur",
+						"delay": 180.0,
+						"distance": 2100.0,
+						"reason": "",
+						"description": "Tussen Amsterdam-Tuindorp Oostzaan en Amsterdam-Hemhavens. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102378",
+						"from": "Amsterdam-Slotermeer",
+						"fromLoc": {
+							"lat": 52.37517,
+							"lon": 4.84282
+						},
+						"to": "knp. Amstel",
+						"toLoc": {
+							"lat": 52.32834,
+							"lon": 4.91356
+						},
+						"location": "A10 knp. Coenplein richting knp. Amstel",
+						"segStart": "knp. Coenplein",
+						"segEnd": "knp. Amstel",
+						"start": "2019-10-02T13:11:30",
+						"startDate": "2 oktober 2019 15:11 uur",
+						"delay": 720.0,
+						"distance": 8300.0,
+						"reason": "",
+						"description": "Tussen Amsterdam-Slotermeer en knp. Amstel. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A12",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102435",
+						"from": "Den Haag-Malieveld",
+						"fromLoc": {
+							"lat": 52.088,
+							"lon": 4.3211
+						},
+						"to": "knp. Prins Clausplein",
+						"toLoc": {
+							"lat": 52.06208,
+							"lon": 4.37549
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:09:30",
+						"startDate": "2 oktober 2019 15:09 uur",
+						"delay": 180.0,
+						"distance": 2600.0,
+						"reason": "",
+						"description": "Tussen Den Haag-Malieveld en knp. Prins Clausplein. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102382",
+						"from": "Woerden",
+						"fromLoc": {
+							"lat": 52.07128,
+							"lon": 4.9029
+						},
+						"to": "knp. Oudenrijn",
+						"toLoc": {
+							"lat": 52.0656,
+							"lon": 5.0701
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:18:30",
+						"startDate": "2 oktober 2019 15:18 uur",
+						"delay": 600.0,
+						"distance": 6600.0,
+						"reason": "",
+						"description": "Tussen Woerden en knp. Oudenrijn. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206098949",
+						"from": "knp. Oudenrijn",
+						"fromLoc": {
+							"lat": 52.0656,
+							"lon": 5.0701
+						},
+						"to": "Nieuwegein",
+						"toLoc": {
+							"lat": 52.06139,
+							"lon": 5.09007
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"reason": "Wegwerkzaamheden. Parallelrijbaan dicht.",
+						"description": "Tussen knp. Oudenrijn en Nieuwegein. Wegwerkzaamheden. Parallelrijbaan dicht.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							},
+							{
+								"alertC": "479",
+								"text": "Parallelrijbaan dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "206102485",
+						"from": "knp. Velperbroek",
+						"fromLoc": {
+							"lat": 51.9819,
+							"lon": 5.97862
+						},
+						"to": "Duiven",
+						"toLoc": {
+							"lat": 51.9613,
+							"lon": 6.02159
+						},
+						"location": "A12 Arnhem richting Duitse grens",
+						"segStart": "Arnhem",
+						"segEnd": "Duitse grens",
+						"start": "2019-10-02T13:49:00",
+						"startDate": "2 oktober 2019 15:49 uur",
+						"delay": 180.0,
+						"distance": 2800.0,
+						"reason": "",
+						"description": "Tussen knp. Velperbroek en Duiven. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102367",
+						"from": "Houten-Oost",
+						"fromLoc": {
+							"lat": 52.06224,
+							"lon": 5.18914
+						},
+						"to": "knp. Oudenrijn",
+						"toLoc": {
+							"lat": 52.0656,
+							"lon": 5.0701
+						},
+						"location": "A12 Arnhem richting Den Haag",
+						"segStart": "Arnhem",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T13:54:00",
+						"startDate": "2 oktober 2019 15:54 uur",
+						"delay": 60.0,
+						"distance": 1300.0,
+						"reason": "Door een ongeluk. De linkerrijstrook is dicht.",
+						"description": "Tussen Houten-Oost en knp. Oudenrijn. Door een ongeluk. De linkerrijstrook is dicht.",
+						"events": [
+							{
+								"alertC": "201",
+								"text": "Door een ongeluk"
+							},
+							{
+								"alertC": "503",
+								"text": "De linkerrijstrook is dicht"
+							},
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102420",
+						"from": "Harmelen",
+						"fromLoc": {
+							"lat": 52.08053,
+							"lon": 4.96595
+						},
+						"to": "Nieuwerbrug",
+						"toLoc": {
+							"lat": 52.06583,
+							"lon": 4.82243
+						},
+						"location": "A12 Utrecht richting Den Haag",
+						"segStart": "Utrecht",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T13:24:30",
+						"startDate": "2 oktober 2019 15:24 uur",
+						"delay": 240.0,
+						"distance": 2400.0,
+						"reason": "",
+						"description": "Tussen Harmelen en Nieuwerbrug. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102374",
+						"from": "knp. Lunetten",
+						"fromLoc": {
+							"lat": 52.05605,
+							"lon": 5.14807
+						},
+						"to": "knp. Oudenrijn",
+						"toLoc": {
+							"lat": 52.06646,
+							"lon": 5.06658
+						},
+						"location": "A12 Arnhem richting Utrecht",
+						"segStart": "Arnhem",
+						"segEnd": "Utrecht",
+						"start": "2019-10-02T13:39:30",
+						"startDate": "2 oktober 2019 15:39 uur",
+						"delay": 1140.0,
+						"distance": 3400.0,
+						"reason": "",
+						"description": "Tussen knp. Lunetten en knp. Oudenrijn. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "205025862",
+						"from": "Kanaleneiland",
+						"fromLoc": {
+							"lat": 52.05972,
+							"lon": 5.10635
+						},
+						"to": "Kanaleneiland",
+						"toLoc": {
+							"lat": 52.05972,
+							"lon": 5.10635
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-09-26T19:00:00",
+						"startDate": "26 september 2019 21:00 uur",
+						"stop": "2019-11-08T04:00:00",
+						"stopDate": "8 november 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"description": "Bij Kanaleneiland. Afrit dicht. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "203793556",
+						"from": "Nieuwegein",
+						"fromLoc": {
+							"lat": 52.06139,
+							"lon": 5.09007
+						},
+						"to": "Nieuwegein",
+						"toLoc": {
+							"lat": 52.06139,
+							"lon": 5.09007
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-09-25T18:00:00",
+						"startDate": "25 september 2019 20:00 uur",
+						"stop": "2019-10-31T04:00:00",
+						"stopDate": "31 oktober 2019 05:00 uur",
+						"reason": "De oprit is dicht. Van 25 september 2019 20:00 uur tot 31 oktober 2019 05:00 uur.",
+						"description": "Bij Nieuwegein. De oprit is dicht. Van 25 september 2019 20:00 uur tot 31 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "406",
+								"text": "De oprit is dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205025566",
+						"from": "Nieuwegein",
+						"fromLoc": {
+							"lat": 52.06139,
+							"lon": 5.09007
+						},
+						"to": "Nieuwegein",
+						"toLoc": {
+							"lat": 52.06139,
+							"lon": 5.09007
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-09-26T19:00:00",
+						"startDate": "26 september 2019 21:00 uur",
+						"stop": "2019-11-08T04:00:00",
+						"stopDate": "8 november 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"description": "Bij Nieuwegein. Afrit dicht. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "204145022",
+						"from": "knp. Oudenrijn",
+						"fromLoc": {
+							"lat": 52.0656,
+							"lon": 5.0701
+						},
+						"to": "knp. Lunetten",
+						"toLoc": {
+							"lat": 52.05543,
+							"lon": 5.14474
+						},
+						"location": "A12 Den Haag richting Utrecht",
+						"segStart": "Den Haag",
+						"segEnd": "Utrecht",
+						"start": "2019-09-26T19:00:00",
+						"startDate": "26 september 2019 21:00 uur",
+						"stop": "2019-11-08T04:00:00",
+						"stopDate": "8 november 2019 05:00 uur",
+						"reason": "Wegwerkzaamheden. Galecopperbrug. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"description": "Tussen knp. Oudenrijn en knp. Lunetten. Wegwerkzaamheden. Galecopperbrug. Van 26 september 2019 21:00 uur tot 8 november 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					},
+					{
+						"msgNr": "206056507",
+						"from": "afrit Wageningen",
+						"fromLoc": {
+							"lat": 52.01461,
+							"lon": 5.65113
+						},
+						"to": "afrit Wageningen",
+						"toLoc": {
+							"lat": 52.01461,
+							"lon": 5.65113
+						},
+						"location": "A12 Arnhem richting Utrecht",
+						"segStart": "Arnhem",
+						"segEnd": "Utrecht",
+						"start": "2019-10-03T19:00:00",
+						"startDate": "3 oktober 2019 21:00 uur",
+						"stop": "2019-10-04T03:00:00",
+						"stopDate": "4 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 3 oktober 2019 21:00 uur tot 4 oktober 2019 05:00 uur.",
+						"description": "Bij afrit Wageningen. Afrit dicht. Van 3 oktober 2019 21:00 uur tot 4 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A13",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102431",
+						"from": "Delft",
+						"fromLoc": {
+							"lat": 52.01124,
+							"lon": 4.37786
+						},
+						"to": "afrit Berkel en Rodenrijs",
+						"toLoc": {
+							"lat": 51.9505,
+							"lon": 4.41636
+						},
+						"location": "A13 Den Haag richting Rotterdam",
+						"segStart": "Den Haag",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:46:00",
+						"startDate": "2 oktober 2019 15:46 uur",
+						"delay": 180.0,
+						"distance": 5200.0,
+						"reason": "",
+						"description": "Tussen Delft en afrit Berkel en Rodenrijs. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A15",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102375",
+						"from": "Havens 5500-5600",
+						"fromLoc": {
+							"lat": 51.90052,
+							"lon": 4.2201
+						},
+						"to": "Havens 4000-5200",
+						"toLoc": {
+							"lat": 51.86758,
+							"lon": 4.27783
+						},
+						"location": "A15 Europoort richting Rotterdam",
+						"segStart": "Europoort",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:35:00",
+						"startDate": "2 oktober 2019 15:35 uur",
+						"delay": 900.0,
+						"distance": 5600.0,
+						"reason": "",
+						"description": "Tussen Havens 5500-5600 en Havens 4000-5200. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102410",
+						"from": "Hendrik-Ido-Ambacht",
+						"fromLoc": {
+							"lat": 51.85648,
+							"lon": 4.62923
+						},
+						"to": "Sliedrecht-West",
+						"toLoc": {
+							"lat": 51.83156,
+							"lon": 4.74547
+						},
+						"location": "A15 Rotterdam richting Gorinchem",
+						"segStart": "Rotterdam",
+						"segEnd": "Gorinchem",
+						"start": "2019-10-02T13:15:30",
+						"startDate": "2 oktober 2019 15:15 uur",
+						"delay": 360.0,
+						"distance": 4700.0,
+						"reason": "",
+						"description": "Tussen Hendrik-Ido-Ambacht en Sliedrecht-West. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102392",
+						"from": "Papendrecht",
+						"fromLoc": {
+							"lat": 51.83905,
+							"lon": 4.71257
+						},
+						"to": "Sliedrecht-Oost",
+						"toLoc": {
+							"lat": 51.82233,
+							"lon": 4.80791
+						},
+						"location": "A15 Rotterdam richting Gorinchem",
+						"segStart": "Rotterdam",
+						"segEnd": "Gorinchem",
+						"start": "2019-10-02T13:15:30",
+						"startDate": "2 oktober 2019 15:15 uur",
+						"delay": 480.0,
+						"distance": 4100.0,
+						"reason": "",
+						"description": "Tussen Papendrecht en Sliedrecht-Oost. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102398",
+						"from": "Hardinxveld-Giessendam",
+						"fromLoc": {
+							"lat": 51.82443,
+							"lon": 4.84649
+						},
+						"to": "Papendrecht",
+						"toLoc": {
+							"lat": 51.83905,
+							"lon": 4.71257
+						},
+						"location": "A15 Gorinchem richting Rotterdam",
+						"segStart": "Gorinchem",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:46:00",
+						"startDate": "2 oktober 2019 15:46 uur",
+						"delay": 420.0,
+						"distance": 5600.0,
+						"reason": "",
+						"description": "Tussen Hardinxveld-Giessendam en Papendrecht. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "205710520",
+						"from": "Elst",
+						"fromLoc": {
+							"lat": 51.89399,
+							"lon": 5.83721
+						},
+						"to": "Elst",
+						"toLoc": {
+							"lat": 51.89399,
+							"lon": 5.83721
+						},
+						"location": "A15 Gorinchem richting Nijmegen",
+						"segStart": "Gorinchem",
+						"segEnd": "Nijmegen",
+						"start": "2019-10-02T18:00:00",
+						"startDate": "2 oktober 2019 20:00 uur",
+						"stop": "2019-10-03T04:00:00",
+						"stopDate": "3 oktober 2019 06:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 20:00 uur tot 3 oktober 2019 06:00 uur.",
+						"description": "Bij Elst. Afrit dicht. Van 2 oktober 2019 20:00 uur tot 3 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "206056843",
+						"from": "Echteld",
+						"fromLoc": {
+							"lat": 51.91262,
+							"lon": 5.48546
+						},
+						"to": "Echteld",
+						"toLoc": {
+							"lat": 51.91262,
+							"lon": 5.48546
+						},
+						"location": "A15 Gorinchem richting Nijmegen",
+						"segStart": "Gorinchem",
+						"segEnd": "Nijmegen",
+						"start": "2019-10-02T22:00:00",
+						"startDate": "3 oktober 2019 00:00 uur",
+						"stop": "2019-10-03T02:00:00",
+						"stopDate": "3 oktober 2019 04:00 uur",
+						"reason": "Afrit dicht. Van 3 oktober 2019 00:00 uur tot 3 oktober 2019 04:00 uur.",
+						"description": "Bij Echteld. Afrit dicht. Van 3 oktober 2019 00:00 uur tot 3 oktober 2019 04:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A16",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102450",
+						"from": "Rotterdam-Feijenoord",
+						"fromLoc": {
+							"lat": 51.89488,
+							"lon": 4.55685
+						},
+						"to": "Rotterdam-Prins Alexander",
+						"toLoc": {
+							"lat": 51.94563,
+							"lon": 4.53212
+						},
+						"location": "A16 Breda richting Rotterdam",
+						"segStart": "Breda",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:50:00",
+						"startDate": "2 oktober 2019 15:50 uur",
+						"delay": 240.0,
+						"distance": 3100.0,
+						"reason": "",
+						"description": "Tussen Rotterdam-Feijenoord en Rotterdam-Prins Alexander. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102387",
+						"from": "Rotterdam-Kralingen",
+						"fromLoc": {
+							"lat": 51.92536,
+							"lon": 4.5379
+						},
+						"to": "knp. Ridderkerk",
+						"toLoc": {
+							"lat": 51.87464,
+							"lon": 4.57095
+						},
+						"location": "A16 Rotterdam richting Breda",
+						"segStart": "Rotterdam",
+						"segEnd": "Breda",
+						"start": "2019-10-02T13:17:00",
+						"startDate": "2 oktober 2019 15:17 uur",
+						"delay": 660.0,
+						"distance": 4000.0,
+						"reason": "",
+						"description": "Tussen Rotterdam-Kralingen en knp. Ridderkerk. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102413",
+						"from": "knp. Ridderkerk",
+						"fromLoc": {
+							"lat": 51.85715,
+							"lon": 4.5974
+						},
+						"to": "Dordrecht-Centrum",
+						"toLoc": {
+							"lat": 51.80352,
+							"lon": 4.65023
+						},
+						"location": "A16 Rotterdam richting Breda",
+						"segStart": "Rotterdam",
+						"segEnd": "Breda",
+						"start": "2019-10-02T13:34:30",
+						"startDate": "2 oktober 2019 15:34 uur",
+						"delay": 300.0,
+						"distance": 4000.0,
+						"reason": "",
+						"description": "Tussen knp. Ridderkerk en Dordrecht-Centrum. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A17",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205320987",
+						"from": "knp. Noordhoek",
+						"fromLoc": {
+							"lat": 51.6352,
+							"lon": 4.54242
+						},
+						"to": "knp. De Stok",
+						"toLoc": {
+							"lat": 51.52609,
+							"lon": 4.42742
+						},
+						"location": "A17 Dordrecht richting Roosendaal",
+						"segStart": "Dordrecht",
+						"segEnd": "Roosendaal",
+						"start": "2019-10-01T19:00:00",
+						"startDate": "1 oktober 2019 21:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Dicht. Van 1 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Tussen knp. Noordhoek en knp. De Stok. Dicht. Van 1 oktober 2019 21:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A20",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102400",
+						"from": "Schiedam",
+						"fromLoc": {
+							"lat": 51.92589,
+							"lon": 4.40387
+						},
+						"to": "Rotterdam-Crooswijk",
+						"toLoc": {
+							"lat": 51.94183,
+							"lon": 4.48195
+						},
+						"location": "A20 Hoek van Holland richting Gouda",
+						"segStart": "Hoek van Holland",
+						"segEnd": "Gouda",
+						"start": "2019-10-02T13:01:00",
+						"startDate": "2 oktober 2019 15:01 uur",
+						"delay": 480.0,
+						"distance": 3900.0,
+						"reason": "",
+						"description": "Tussen Schiedam en Rotterdam-Crooswijk. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102366",
+						"from": "knp. Terbregseplein",
+						"fromLoc": {
+							"lat": 51.9503,
+							"lon": 4.52859
+						},
+						"to": "Moordrecht",
+						"toLoc": {
+							"lat": 52.00326,
+							"lon": 4.6534
+						},
+						"location": "A20 Hoek van Holland richting Gouda",
+						"segStart": "Hoek van Holland",
+						"segEnd": "Gouda",
+						"start": "2019-10-02T13:16:30",
+						"startDate": "2 oktober 2019 15:16 uur",
+						"delay": 540.0,
+						"distance": 7000.0,
+						"reason": "Door een ongeluk.",
+						"description": "Tussen knp. Terbregseplein en Moordrecht. Door een ongeluk.",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							},
+							{
+								"alertC": "201",
+								"text": "Door een ongeluk"
+							}
+						]
+					},
+					{
+						"msgNr": "206102425",
+						"from": "knp. Gouwe",
+						"fromLoc": {
+							"lat": 52.0244,
+							"lon": 4.66262
+						},
+						"to": "Nieuwerkerk a/d IJssel",
+						"toLoc": {
+							"lat": 51.98055,
+							"lon": 4.61948
+						},
+						"location": "A20 Gouda richting Hoek van Holland",
+						"segStart": "Gouda",
+						"segEnd": "Hoek van Holland",
+						"start": "2019-10-02T13:18:00",
+						"startDate": "2 oktober 2019 15:18 uur",
+						"delay": 300.0,
+						"distance": 3300.0,
+						"reason": "",
+						"description": "Tussen knp. Gouwe en Nieuwerkerk a/d IJssel. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A27",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102390",
+						"from": "Bilthoven",
+						"fromLoc": {
+							"lat": 52.14165,
+							"lon": 5.15813
+						},
+						"to": "knp. Rijnsweerd",
+						"toLoc": {
+							"lat": 52.09158,
+							"lon": 5.16122
+						},
+						"location": "A27 Almere richting Gorinchem",
+						"segStart": "Almere",
+						"segEnd": "Gorinchem",
+						"start": "2019-10-02T13:14:00",
+						"startDate": "2 oktober 2019 15:14 uur",
+						"delay": 540.0,
+						"distance": 5200.0,
+						"reason": "",
+						"description": "Tussen Bilthoven en knp. Rijnsweerd. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102383",
+						"from": "knp. Everdingen",
+						"fromLoc": {
+							"lat": 51.97657,
+							"lon": 5.10216
+						},
+						"to": "Noordeloos",
+						"toLoc": {
+							"lat": 51.89845,
+							"lon": 4.97873
+						},
+						"location": "A27 Utrecht richting Gorinchem",
+						"segStart": "Utrecht",
+						"segEnd": "Gorinchem",
+						"start": "2019-10-02T13:10:30",
+						"startDate": "2 oktober 2019 15:10 uur",
+						"delay": 660.0,
+						"distance": 7000.0,
+						"reason": "",
+						"description": "Tussen knp. Everdingen en Noordeloos. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102401",
+						"from": "Noordeloos",
+						"fromLoc": {
+							"lat": 51.89845,
+							"lon": 4.97873
+						},
+						"to": "Werkendam",
+						"toLoc": {
+							"lat": 51.80154,
+							"lon": 4.93162
+						},
+						"location": "A27 Utrecht richting Breda",
+						"segStart": "Utrecht",
+						"segEnd": "Breda",
+						"start": "2019-10-02T12:44:30",
+						"startDate": "2 oktober 2019 14:44 uur",
+						"delay": 420.0,
+						"distance": 3700.0,
+						"reason": "",
+						"description": "Tussen Noordeloos en Werkendam. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "205711693",
+						"from": "Hilversum",
+						"fromLoc": {
+							"lat": 52.20511,
+							"lon": 5.19777
+						},
+						"to": "Hilversum",
+						"toLoc": {
+							"lat": 52.20511,
+							"lon": 5.19777
+						},
+						"location": "A27 Utrecht richting Almere",
+						"segStart": "Utrecht",
+						"segEnd": "Almere",
+						"start": "2019-10-02T18:00:00",
+						"startDate": "2 oktober 2019 20:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 20:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij Hilversum. Afrit dicht. Van 2 oktober 2019 20:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A28",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102393",
+						"from": "afrit Maarn",
+						"fromLoc": {
+							"lat": 52.12901,
+							"lon": 5.36755
+						},
+						"to": "Amersfoort-Vathorst",
+						"toLoc": {
+							"lat": 52.21074,
+							"lon": 5.44369
+						},
+						"location": "A28 Utrecht richting Zwolle",
+						"segStart": "Utrecht",
+						"segEnd": "Zwolle",
+						"start": "2019-10-02T13:34:30",
+						"startDate": "2 oktober 2019 15:34 uur",
+						"delay": 420.0,
+						"distance": 8300.0,
+						"reason": "",
+						"description": "Tussen afrit Maarn en Amersfoort-Vathorst. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "205711815",
+						"from": "Hoogeveen",
+						"fromLoc": {
+							"lat": 52.72184,
+							"lon": 6.46439
+						},
+						"to": "Hoogeveen",
+						"toLoc": {
+							"lat": 52.72184,
+							"lon": 6.46439
+						},
+						"location": "A28 Hoogeveen richting Assen",
+						"segStart": "Hoogeveen",
+						"segEnd": "Assen",
+						"start": "2019-10-01T18:00:00",
+						"startDate": "1 oktober 2019 20:00 uur",
+						"stop": "2019-10-03T04:00:00",
+						"stopDate": "3 oktober 2019 06:00 uur",
+						"reason": "Afrit dicht. Van 1 oktober 2019 20:00 uur tot 3 oktober 2019 06:00 uur.",
+						"description": "Bij Hoogeveen. Afrit dicht. Van 1 oktober 2019 20:00 uur tot 3 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205711936",
+						"from": "afrit Ruinen",
+						"fromLoc": {
+							"lat": 52.77436,
+							"lon": 6.44747
+						},
+						"to": "afrit Ruinen",
+						"toLoc": {
+							"lat": 52.77436,
+							"lon": 6.44747
+						},
+						"location": "A28 Assen richting Hoogeveen",
+						"segStart": "Assen",
+						"segEnd": "Hoogeveen",
+						"start": "2019-10-02T18:00:00",
+						"startDate": "2 oktober 2019 20:00 uur",
+						"stop": "2019-10-04T04:00:00",
+						"stopDate": "4 oktober 2019 06:00 uur",
+						"reason": "Afrit dicht. Van 2 oktober 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"description": "Bij afrit Ruinen. Afrit dicht. Van 2 oktober 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A29",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102386",
+						"from": "Willemstad",
+						"fromLoc": {
+							"lat": 51.68114,
+							"lon": 4.4183
+						},
+						"to": "afrit Numansdorp",
+						"toLoc": {
+							"lat": 51.74901,
+							"lon": 4.4148
+						},
+						"location": "A29 Bergen op Zoom richting Rotterdam",
+						"segStart": "Bergen op Zoom",
+						"segEnd": "Rotterdam",
+						"start": "2019-10-02T13:46:30",
+						"startDate": "2 oktober 2019 15:46 uur",
+						"delay": 660.0,
+						"distance": 2500.0,
+						"reason": "",
+						"description": "Tussen Willemstad en afrit Numansdorp. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102384",
+						"from": "afrit Oud-Beijerland",
+						"fromLoc": {
+							"lat": 51.81528,
+							"lon": 4.48713
+						},
+						"to": "knp. Hellegatsplein",
+						"toLoc": {
+							"lat": 51.69927,
+							"lon": 4.39537
+						},
+						"location": "A29 Rotterdam richting Bergen op Zoom",
+						"segStart": "Rotterdam",
+						"segEnd": "Bergen op Zoom",
+						"start": "2019-10-02T13:48:00",
+						"startDate": "2 oktober 2019 15:48 uur",
+						"delay": 720.0,
+						"distance": 4200.0,
+						"reason": "",
+						"description": "Tussen afrit Oud-Beijerland en knp. Hellegatsplein. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A44",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102388",
+						"from": "Leiden",
+						"fromLoc": {
+							"lat": 52.16632,
+							"lon": 4.4525
+						},
+						"to": "Wassenaar",
+						"toLoc": {
+							"lat": 52.14224,
+							"lon": 4.41628
+						},
+						"location": "A44 Amsterdam richting Den Haag",
+						"segStart": "Amsterdam",
+						"segEnd": "Den Haag",
+						"start": "2019-10-02T10:31:00",
+						"startDate": "2 oktober 2019 12:31 uur",
+						"delay": 660.0,
+						"distance": 3000.0,
+						"reason": "",
+						"description": "Tussen Leiden en Wassenaar. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A50",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102408",
+						"from": "Oss-Oost",
+						"fromLoc": {
+							"lat": 51.72743,
+							"lon": 5.57317
+						},
+						"to": "Ravenstein",
+						"toLoc": {
+							"lat": 51.78808,
+							"lon": 5.65334
+						},
+						"location": "A50 Eindhoven richting Arnhem",
+						"segStart": "Eindhoven",
+						"segEnd": "Arnhem",
+						"start": "2019-10-02T13:42:30",
+						"startDate": "2 oktober 2019 15:42 uur",
+						"delay": 360.0,
+						"distance": 3700.0,
+						"reason": "",
+						"description": "Tussen Oss-Oost en Ravenstein. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102412",
+						"from": "knp. Ewijk",
+						"fromLoc": {
+							"lat": 51.85812,
+							"lon": 5.71143
+						},
+						"to": "Ravenstein",
+						"toLoc": {
+							"lat": 51.78808,
+							"lon": 5.65334
+						},
+						"location": "A50 Arnhem richting Oss",
+						"segStart": "Arnhem",
+						"segEnd": "Oss",
+						"start": "2019-10-02T13:33:30",
+						"startDate": "2 oktober 2019 15:33 uur",
+						"delay": 300.0,
+						"distance": 3900.0,
+						"reason": "",
+						"description": "Tussen knp. Ewijk en Ravenstein. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [
+					{
+						"msgNr": "206057899",
+						"from": "Ravenstein",
+						"fromLoc": {
+							"lat": 51.78808,
+							"lon": 5.65334
+						},
+						"to": "Ravenstein",
+						"toLoc": {
+							"lat": 51.78808,
+							"lon": 5.65334
+						},
+						"location": "A50 Oss richting Arnhem",
+						"segStart": "Oss",
+						"segEnd": "Arnhem",
+						"start": "2019-10-03T19:00:00",
+						"startDate": "3 oktober 2019 21:00 uur",
+						"stop": "2019-10-04T03:00:00",
+						"stopDate": "4 oktober 2019 05:00 uur",
+						"reason": "Afrit dicht. Van 3 oktober 2019 21:00 uur tot 4 oktober 2019 05:00 uur.",
+						"description": "Bij Ravenstein. Afrit dicht. Van 3 oktober 2019 21:00 uur tot 4 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "206057380",
+						"from": "Epe",
+						"fromLoc": {
+							"lat": 52.33459,
+							"lon": 6.00975
+						},
+						"to": "Epe",
+						"toLoc": {
+							"lat": 52.33459,
+							"lon": 6.00975
+						},
+						"location": "A50 Zwolle richting Apeldoorn",
+						"segStart": "Zwolle",
+						"segEnd": "Apeldoorn",
+						"start": "2019-10-03T17:00:00",
+						"startDate": "3 oktober 2019 19:00 uur",
+						"stop": "2019-10-04T04:00:00",
+						"stopDate": "4 oktober 2019 06:00 uur",
+						"reason": "Afrit dicht. Van 3 oktober 2019 19:00 uur tot 4 oktober 2019 06:00 uur.",
+						"description": "Bij Epe. Afrit dicht. Van 3 oktober 2019 19:00 uur tot 4 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "474",
+								"text": "Afrit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A58",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102391",
+						"from": "knp. Batadorp",
+						"fromLoc": {
+							"lat": 51.48447,
+							"lon": 5.39481
+						},
+						"to": "Moergestel",
+						"toLoc": {
+							"lat": 51.53574,
+							"lon": 5.17852
+						},
+						"location": "A58 Eindhoven richting Tilburg",
+						"segStart": "Eindhoven",
+						"segEnd": "Tilburg",
+						"start": "2019-10-02T13:21:30",
+						"startDate": "2 oktober 2019 15:21 uur",
+						"delay": 420.0,
+						"distance": 6800.0,
+						"reason": "",
+						"description": "Tussen knp. Batadorp en Moergestel. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102441",
+						"from": "Tilburg-Reeshof",
+						"fromLoc": {
+							"lat": 51.55142,
+							"lon": 4.95224
+						},
+						"to": "Ulvenhout",
+						"toLoc": {
+							"lat": 51.53705,
+							"lon": 4.79833
+						},
+						"location": "A58 Tilburg richting Breda",
+						"segStart": "Tilburg",
+						"segEnd": "Breda",
+						"start": "2019-10-02T13:31:00",
+						"startDate": "2 oktober 2019 15:31 uur",
+						"delay": 180.0,
+						"distance": 3400.0,
+						"reason": "",
+						"description": "Tussen Tilburg-Reeshof en Ulvenhout. ",
+						"events": [
+							{
+								"alertC": "115",
+								"text": "Langzaam rijdend verkeer"
+							}
+						]
+					},
+					{
+						"msgNr": "206102427",
+						"from": "Heerle",
+						"fromLoc": {
+							"lat": 51.50704,
+							"lon": 4.36071
+						},
+						"to": "Bergen op Zoom-Centrum",
+						"toLoc": {
+							"lat": 51.49955,
+							"lon": 4.3194
+						},
+						"location": "A58 Breda richting Vlissingen",
+						"segStart": "Breda",
+						"segEnd": "Vlissingen",
+						"start": "2019-10-02T13:22:30",
+						"startDate": "2 oktober 2019 15:22 uur",
+						"delay": 180.0,
+						"distance": 2700.0,
+						"reason": "",
+						"description": "Tussen Heerle en Bergen op Zoom-Centrum. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A59",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102399",
+						"from": "Made",
+						"fromLoc": {
+							"lat": 51.66886,
+							"lon": 4.7968
+						},
+						"to": "knp. Hooipolder",
+						"toLoc": {
+							"lat": 51.68725,
+							"lon": 4.88382
+						},
+						"location": "A59 knp. Zonzeel richting Oss",
+						"segStart": "knp. Zonzeel",
+						"segEnd": "Oss",
+						"start": "2019-10-02T12:27:30",
+						"startDate": "2 oktober 2019 14:27 uur",
+						"delay": 420.0,
+						"distance": 3500.0,
+						"reason": "",
+						"description": "Tussen Made en knp. Hooipolder. ",
+						"events": [
+							{
+								"alertC": "101",
+								"text": "Stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "A76",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205712471",
+						"from": "Spaubeek",
+						"fromLoc": {
+							"lat": 50.94644,
+							"lon": 5.83868
+						},
+						"to": "Spaubeek",
+						"toLoc": {
+							"lat": 50.94644,
+							"lon": 5.83868
+						},
+						"location": "A76 Geleen richting Heerlen",
+						"segStart": "Geleen",
+						"segEnd": "Heerlen",
+						"start": "2019-10-02T20:00:00",
+						"startDate": "2 oktober 2019 22:00 uur",
+						"stop": "2019-10-02T22:30:00",
+						"stopDate": "3 oktober 2019 00:30 uur",
+						"reason": "Oprit dicht. Van 2 oktober 2019 22:00 uur tot 3 oktober 2019 00:30 uur.",
+						"description": "Bij Spaubeek. Oprit dicht. Van 2 oktober 2019 22:00 uur tot 3 oktober 2019 00:30 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "A200",
+			"roadType": "aWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205712599",
+						"from": "knp. Rottepolderplein",
+						"fromLoc": {
+							"lat": 52.38435,
+							"lon": 4.7077
+						},
+						"to": "knp. Rottepolderplein",
+						"toLoc": {
+							"lat": 52.38435,
+							"lon": 4.7077
+						},
+						"location": "A200 Amsterdam richting Haarlem",
+						"segStart": "Amsterdam",
+						"segEnd": "Haarlem",
+						"start": "2019-10-02T21:00:00",
+						"startDate": "2 oktober 2019 23:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Oprit dicht. Van 2 oktober 2019 23:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Bij knp. Rottepolderplein. Oprit dicht. Van 2 oktober 2019 23:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "471",
+								"text": "Oprit dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "N36",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205712729",
+						"from": "Almelo-Noord",
+						"fromLoc": {
+							"lat": 52.40535,
+							"lon": 6.63919
+						},
+						"to": "de aansluiting met de A35",
+						"toLoc": {
+							"lat": 52.3424,
+							"lon": 6.59749
+						},
+						"location": "N36 Ommen - Almelo",
+						"segStart": "Ommen",
+						"segEnd": "Almelo",
+						"start": "2019-10-02T20:00:00",
+						"startDate": "2 oktober 2019 22:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Dicht. Van 2 oktober 2019 22:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Tussen Almelo-Noord en de aansluiting met de A35. Dicht. Van 2 oktober 2019 22:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "402",
+								"text": "Dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "N48",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205144836",
+						"from": "Hardenberg",
+						"fromLoc": {
+							"lat": 52.55052,
+							"lon": 6.41776
+						},
+						"to": "Dedemsvaart",
+						"toLoc": {
+							"lat": 52.60263,
+							"lon": 6.4075
+						},
+						"location": "N48 Ommen - Hoogeveen",
+						"segStart": "Ommen",
+						"segEnd": "Hoogeveen",
+						"start": "2019-10-01T18:00:00",
+						"startDate": "1 oktober 2019 20:00 uur",
+						"stop": "2019-10-03T03:00:00",
+						"stopDate": "3 oktober 2019 05:00 uur",
+						"reason": "Dicht. Van 1 oktober 2019 20:00 uur tot 3 oktober 2019 05:00 uur.",
+						"description": "Tussen Hardenberg en Dedemsvaart. Dicht. Van 1 oktober 2019 20:00 uur tot 3 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205144990",
+						"from": "Dedemsvaart",
+						"fromLoc": {
+							"lat": 52.60263,
+							"lon": 6.4075
+						},
+						"to": "Ommen",
+						"toLoc": {
+							"lat": 52.52423,
+							"lon": 6.39484
+						},
+						"location": "N48 Hoogeveen - Ommen",
+						"segStart": "Hoogeveen",
+						"segEnd": "Ommen",
+						"start": "2019-10-01T18:00:00",
+						"startDate": "1 oktober 2019 20:00 uur",
+						"stop": "2019-10-04T03:00:00",
+						"stopDate": "4 oktober 2019 05:00 uur",
+						"reason": "Dicht. Van 1 oktober 2019 20:00 uur tot 4 oktober 2019 05:00 uur.",
+						"description": "Tussen Dedemsvaart en Ommen. Dicht. Van 1 oktober 2019 20:00 uur tot 4 oktober 2019 05:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "N59",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205323692a",
+						"from": "Zierikzee",
+						"fromLoc": {
+							"lat": 51.65499,
+							"lon": 3.9213
+						},
+						"to": "Zierikzee",
+						"toLoc": {
+							"lat": 51.65499,
+							"lon": 3.9213
+						},
+						"location": "N59 Burgh-Haamstede - knp. Hellegatsplein",
+						"segStart": "Burgh-Haamstede",
+						"segEnd": "knp. Hellegatsplein",
+						"start": "2019-09-30T18:00:00",
+						"startDate": "30 september 2019 20:00 uur",
+						"stop": "2019-10-04T04:00:00",
+						"stopDate": "4 oktober 2019 06:00 uur",
+						"reason": "Dicht. Van 30 september 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"description": "Bij Zierikzee. Dicht. Van 30 september 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					},
+					{
+						"msgNr": "205323692b",
+						"from": "Zierikzee",
+						"fromLoc": {
+							"lat": 51.65499,
+							"lon": 3.9213
+						},
+						"to": "Zierikzee",
+						"toLoc": {
+							"lat": 51.65499,
+							"lon": 3.9213
+						},
+						"location": "N59 knp. Hellegatsplein - Burgh-Haamstede",
+						"segStart": "knp. Hellegatsplein",
+						"segEnd": "Burgh-Haamstede",
+						"start": "2019-09-30T18:00:00",
+						"startDate": "30 september 2019 20:00 uur",
+						"stop": "2019-10-04T04:00:00",
+						"stopDate": "4 oktober 2019 06:00 uur",
+						"reason": "Dicht. Van 30 september 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"description": "Bij Zierikzee. Dicht. Van 30 september 2019 20:00 uur tot 4 oktober 2019 06:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "N242",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102462",
+						"from": "de aansluiting met de A9",
+						"fromLoc": {
+							"lat": 52.60861,
+							"lon": 4.73591
+						},
+						"to": "Omval",
+						"toLoc": {
+							"lat": 52.62397,
+							"lon": 4.77835
+						},
+						"location": "N242 Alkmaar - Middenmeer",
+						"segStart": "Alkmaar",
+						"segEnd": "Middenmeer",
+						"start": "2019-10-02T13:32:00",
+						"startDate": "2 oktober 2019 15:32 uur",
+						"delay": 300.0,
+						"distance": 2200.0,
+						"reason": "",
+						"description": "Tussen de aansluiting met de A9 en Omval. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "N247",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102436",
+						"from": "de aansluiting met de A10",
+						"fromLoc": {
+							"lat": 52.40732,
+							"lon": 4.93913
+						},
+						"to": "Broek in Waterland",
+						"toLoc": {
+							"lat": 52.43398,
+							"lon": 4.99835
+						},
+						"location": "N247 Amsterdam - Hoorn",
+						"segStart": "Amsterdam",
+						"segEnd": "Hoorn",
+						"start": "2019-10-02T12:57:30",
+						"startDate": "2 oktober 2019 14:57 uur",
+						"delay": 360.0,
+						"distance": 3300.0,
+						"reason": "",
+						"description": "Tussen de aansluiting met de A10 en Broek in Waterland. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		},
+		{
+			"road": "N325",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "172423308a",
+						"from": "de Waalbrug bij Nijmegen",
+						"fromLoc": {
+							"lat": 51.85127,
+							"lon": 5.87127
+						},
+						"to": "de Waalbrug bij Nijmegen",
+						"toLoc": {
+							"lat": 51.85127,
+							"lon": 5.87127
+						},
+						"location": "N325 Duitse grens - Nijmegen",
+						"segStart": "Duitse grens",
+						"segEnd": "Nijmegen",
+						"start": "2019-03-22T05:00:00",
+						"startDate": "22 maart 2019 06:00 uur",
+						"stop": "2020-09-30T04:00:00",
+						"stopDate": "30 september 2020 06:00 uur",
+						"reason": "Wegwerkzaamheden. Van 22 maart 2019 06:00 uur tot 30 september 2020 06:00 uur.",
+						"description": "Bij de Waalbrug bij Nijmegen. Wegwerkzaamheden. Van 22 maart 2019 06:00 uur tot 30 september 2020 06:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					},
+					{
+						"msgNr": "172423308b",
+						"from": "de Waalbrug bij Nijmegen",
+						"fromLoc": {
+							"lat": 51.85127,
+							"lon": 5.87127
+						},
+						"to": "de Waalbrug bij Nijmegen",
+						"toLoc": {
+							"lat": 51.85127,
+							"lon": 5.87127
+						},
+						"location": "N325 Nijmegen - Duitse grens",
+						"segStart": "Nijmegen",
+						"segEnd": "Duitse grens",
+						"start": "2019-03-22T05:00:00",
+						"startDate": "22 maart 2019 06:00 uur",
+						"stop": "2020-09-30T04:00:00",
+						"stopDate": "30 september 2020 06:00 uur",
+						"reason": "Wegwerkzaamheden. Van 22 maart 2019 06:00 uur tot 30 september 2020 06:00 uur.",
+						"description": "Bij de Waalbrug bij Nijmegen. Wegwerkzaamheden. Van 22 maart 2019 06:00 uur tot 30 september 2020 06:00 uur.",
+						"events": [
+							{
+								"alertC": "701",
+								"text": "Wegwerkzaamheden"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "N344",
+			"roadType": "nWegen",
+			"events": {
+				"trafficJams": [],
+				"roadWorks": [
+					{
+						"msgNr": "205145633",
+						"from": "Hoog Soeren",
+						"fromLoc": {
+							"lat": 52.23239,
+							"lon": 5.86269
+						},
+						"to": "Kootwijk",
+						"toLoc": {
+							"lat": 52.22111,
+							"lon": 5.77907
+						},
+						"location": "N344 Apeldoorn - Voorthuizen",
+						"segStart": "Apeldoorn",
+						"segEnd": "Voorthuizen",
+						"start": "2019-09-30T10:00:00",
+						"startDate": "30 september 2019 12:00 uur",
+						"stop": "2019-10-25T10:00:00",
+						"stopDate": "25 oktober 2019 12:00 uur",
+						"reason": "Dicht. Van 30 september 2019 12:00 uur tot 25 oktober 2019 12:00 uur.",
+						"description": "Tussen Hoog Soeren en Kootwijk. Dicht. Van 30 september 2019 12:00 uur tot 25 oktober 2019 12:00 uur.",
+						"events": [
+							{
+								"alertC": "401",
+								"text": "Dicht"
+							}
+						]
+					}
+				],
+				"radars": []
+			}
+		},
+		{
+			"road": "Vught",
+			"roadType": "overige",
+			"events": {
+				"trafficJams": [
+					{
+						"msgNr": "206102472",
+						"from": "de Vlijmenseweg",
+						"fromLoc": {
+							"lat": 51.68535,
+							"lon": 5.27985
+						},
+						"to": "de A65",
+						"toLoc": {
+							"lat": 51.66466,
+							"lon": 5.30119
+						},
+						"location": "Randweg, ",
+						"segStart": "Vlijmenseweg",
+						"segEnd": "A65 (Ring 's-Hertogenbosch)",
+						"start": "2019-10-02T13:14:00",
+						"startDate": "2 oktober 2019 15:14 uur",
+						"delay": 240.0,
+						"distance": 2100.0,
+						"reason": "",
+						"description": "Randweg,  tussen de Vlijmenseweg en de A65. ",
+						"events": [
+							{
+								"alertC": "108",
+								"text": "Langzaam rijdend tot stilstaand verkeer"
+							}
+						]
+					}
+				],
+				"roadWorks": [],
+				"radars": []
+			}
+		}
+	]
+}
