@@ -1,0 +1,16 @@
+- Download Thonny van https://thonny.org/
+- Installeer Thonny
+- Start Thonny
+- Ga naar Tools -> Options -> Interpreter
+- Selecteer "Alternative Python 3 interpreter or virtual environment"
+- Selecteer vervolgens "<QGIS installatiefolder>\apps\Python37\python.exe" als interpreter
+- Sluit Thonny
+- Start de Windows verkenner
+- Open contextmenu van Deze PC en ga naar Eigenschappen -> Geavanceerde systeeminstellingen -> Omgevingsvariabele
+- Selecteer de omgevingsvariabele "Path" en klik "Bewerken"
+- Klik "Nieuw"
+- Klik "Bladeren" en navigeer naar de folder "<QGIS installatiefolder>\apps\Python37" en klik "OK"
+- Klik "Nieuw"
+- Klik "Bladeren" en navigeer naar de folder "<QGIS installatiefolder>\bin" en klik "OK"
+- Zorg dat deze folder bovenaan de lijst van folders komen te staan in de "Path" omgevingsvariabele
+- Sluit de geavanceerde systeeminstellingen en start Thonny
