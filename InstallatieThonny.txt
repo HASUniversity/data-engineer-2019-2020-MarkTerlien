@@ -14,3 +14,16 @@
 - Klik "Bladeren" en navigeer naar de folder "<QGIS installatiefolder>\bin" en klik "OK"
 - Zorg dat deze folder bovenaan de lijst van folders komen te staan in de "Path" omgevingsvariabele
 - Sluit de geavanceerde systeeminstellingen en start Thonny
+- LET OP:
+- Check of osr goed werkt:
+
+        dst_srs = osr.SpatialReference()
+        dst_srs.ImportFromEPSG(28992)
+        dst_srs_wkt = dst_srs.ExportToWkt()
+        print(dst_srs_wkt)
+
+	# WKT moet geprint worden
+  
+- Zo niet: 
+  - Maak omgevingsvariabele aan: PROJ_LIB = C:\Program Files\QGIS 3.10\share\proj
+
