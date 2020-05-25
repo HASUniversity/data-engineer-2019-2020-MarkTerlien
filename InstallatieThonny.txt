@@ -27,3 +27,5 @@
 - Zo niet: 
   - Maak omgevingsvariabele aan: PROJ_LIB = C:\Program Files\QGIS 3.10\share\proj
 
+=> Download: https://www.lfd.uci.edu/~gohlke/pythonlibs/
+=> pip install GDAL-2.4.1-cp37-cp37m-win_amd64.whl
