@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html><head>
+	<!-- Examples: https://www.w3schools.com/howto/default.asp -->
+	<title>Voedselbos Schijndel</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" crossorigin="" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script type="text/javascript” src=”ply.js"></script>
+</head>
+<body>
+
+<!-- Setup page-->
+<H1>Sensoren Voedselbos Schijndel</H1>
+</p>
+<div id ="mapid" style="width: 800px; height: 600px; position: relative;"></div>
+</p>
+<button onclick="clearGraphs()">Clear graphs</button>
+<H2 id ="temperatureGraphTitle"></H2>
+<div id ="graphTemperature"></div>
+<H2 id ="soilMoistureGraphTitle"></H2>
+<div id ="graphMoisture"></div>
+
+<!-- Scripts -->
+<script>
+
+	// Restserver URL
+	var restServer = "https://geolab.has.nl/rest/voedselbos/";
+	//var restServer = "http://localhost:3000/";
+	var precipitation_loaded = false ;
+
+	// Function to clear the graphs
+	function clearGraphs(){
+		Plotly.newPlot(document.getElementById("graphTemperature"));
+		Plotly.newPlot(document.getElementById("graphMoisture")) ;
+		precipitation_loaded = false ;
+	};
+
+	// Function to show the graph for temperature
+	function showGraphTemperature( sensor_id, sensor_name ){
+		let xl = [];
+		let yl = [];
+		// Get data
+		d3.json(restServer + "sample?location_identifier=eq." + sensor_id + "&order=capture_datetime_utc.asc", function(data) {
+			
+			// Write x,y values to array
+			for (var i = 0; i < data.length; i++) {
+				document.getElementById("temperatureGraphTitle").innerHTML = 'Temperature for sensor ' + sensor_name
+				xl.push(data[i].capture_datetime_utc);
+				yl.push(data[i].air_temperature_celsius);
+				}
+			let trace = {x: xl, y: yl, name : sensor_name};
+			Plotly.plot(document.getElementById("graphTemperature"), [trace]); 
+		});
+	};
+
+	// Function to show the graph for soil moisture
+	function showGraphMoisture( sensor_id, sensor_name ){
+		let xl = [];
+		let yl = [];
+		var trace_moisture;
+		// Get data
+		d3.json(restServer + "sample?location_identifier=eq." + sensor_id + "&order=capture_datetime_utc.asc", function(data) {
+			
+			// Write x,y values to array
+			for (var i = 0; i < data.length; i++) {
+				document.getElementById("soilMoistureGraphTitle").innerHTML = 'Soil moisture for sensor ' + sensor_name 
+				xl.push(data[i].capture_datetime_utc);
+				yl.push(data[i].calibrated_soil_moisture_percent);
+				}
+			trace_moisture = {x: xl, y: yl, name : sensor_name };
+
+			// Plot directly if precipitation already plotted in graph
+			console.log("Load precipitation " + precipitation_loaded)
+			if (precipitation_loaded) {
+				Plotly.plot(document.getElementById("graphMoisture"), [trace_moisture]); 
+			}
+			 else {
+
+				// https://plot.ly/javascript/multiple-axes/
+				let x2 = []
+				let y2 = []
+				
+				// Get data
+				d3.json(restServer + "observation_hour", function(data) {
+					
+						// Write x,y values to array
+						for (var i = 0; i < data.length; i++) {
+							x2.push(data[i].obs_time_local);
+							y2.push(data[i].precip_total);
+							}
+						let trace_precip = { x: x2, y: y2, name : "Precipitation"
+										, yaxis: 'y2'
+										, type: 'bar'
+										, marker: { color: 'rgb(0,0,255)'
+													, opacity: 0.7, 
+											} 
+						};
+
+						// Define layout with 2 y-axis
+						var layout = {
+								title: 'Soil moisture and Precipitation',
+								yaxis: {title: 'Soil moisture'},
+								yaxis2: {
+									title: 'Precipitation (mm)',
+									titlefont: {color: 'rgb(0, 0, 0)'},
+									tickfont: {color: 'rgb(0, 0, 0)'},
+									overlaying: 'y',
+									side: 'right'
+								}
+						};
+
+						// Add arrays for 2 y-axis
+						var data = [trace_moisture, trace_precip];
+
+						// Plot precipitation and soil moisture
+						Plotly.plot(document.getElementById("graphMoisture"), data, layout); 
+						precipitation_loaded = true ;
+				});	
+			};
+		});
+
+		// // Get precipitation and plot on other y-axis
+		// if (precipitation_loaded === false ) {
+		// 	// https://plot.ly/javascript/multiple-axes/
+		// 	let x2 = []
+		// 	let y2 = []
+		// 	// Get data
+		// 	d3.json(restServer + "observation_hour", function(data) {
+				
+		// 		// Write x,y values to array
+		// 		for (var i = 0; i < data.length; i++) {
+		// 			x2.push(data[i].obs_time_local);
+		// 			y2.push(data[i].precip_total);
+		// 			}
+		// 		let trace_precip = { x: x2, y: y2, name : "Precipitation"
+		// 						   , yaxis: 'y2'
+		// 						   , type: 'bar'
+		// 						   , marker: { color: 'rgb(0,0,255)'
+		// 									,  line: { color: 'rgb(0,0,255)', width: 0.5, opacity: 0.5 } 
+		// 							 } 
+		// 		};
+
+		// 		// Define layout with 2 y-axis
+		// 		var layout = {
+		// 				title: 'Soil moisture and Precipitation',
+		// 				yaxis: {title: 'Soil moisture'},
+		// 				yaxis2: {
+		// 					title: 'Precipitation (mm)',
+		// 					titlefont: {color: 'rgb(0, 0, 0)'},
+		// 					tickfont: {color: 'rgb(0, 0, 0)'},
+		// 					overlaying: 'y',
+		// 					side: 'right'
+		// 				}
+		// 		};
+
+		// 		// Add arrays for 2 y-axis
+		// 		var data = [trace_moisture, trace_precip];
+
+		// 		// Plot precipitation and soil moisture
+		// 		Plotly.plot(document.getElementById("graphMoisture"), data, layout); 
+		// 		precipitation_loaded = true ;
+		// 	});	
+		// };
+	};
+
+	// Link map to div and set centre coordinates and zoom level
+	var mymap = L.map('mapid').setView([51.6288, 5.460033], 15);
+
+	// Load background map from Mapbox
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFya3RlcmxpZW4iLCJhIjoiY2pzMGcxdmZ2MWU3eDN5bjFzMm01eWkzYiJ9.YZmBC4-eY0IpKXYAVBUcow', {
+		maxZoom: 20,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11'
+	}).addTo(mymap);
+
+	// Define icons
+	var url_icon_red    = "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|e85141&chf=a,s,ee00FFFF"
+	var url_icon_orange = "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|e3a832&chf=a,s,ee00FFFF"
+	var url_icon_green  = "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF"
+
+	// Function to put markers on the map on location of sensors
+	d3.json(restServer + "sensor_status", function(data) {
+    for (var i = 0; i < data.length; i++) {
+		if (data[i] != null) {
+
+			// Define which marker to show based on battery percentage
+			if ( data[i].min_battery_percent > 30 ) {
+					iconToUse = L.icon({iconUrl: url_icon_green})
+			}
+			if ( data[i].min_battery_percent <= 30 && data[i].min_battery_percent > 10 ) {
+					iconToUse = L.icon({iconUrl: url_icon_orange})
+			}
+			if ( data[i].min_battery_percent <= 10 ) {
+					iconToUse = L.icon({iconUrl: url_icon_red})
+			}
+
+			// Plot markers on the map with buttons to call functions to draw graphs
+			L.marker([data[i].y, data[i].x], {icon: iconToUse})
+			.bindTooltip(data[i].plant_nickname, {permanent: true, direction: 'centre'})
+			.addTo(mymap)
+			.bindPopup("<b>Sensor " + data[i].plant_nickname + "</b><br>Start observations: " + data[i].min_capture_datetime_utc 
+			+ "<br>End observations: " + data[i].max_capture_datetime_utc +  "<br>Battery percentage: " + data[i].min_battery_percent
+			+ '<br><button onClick="showGraphTemperature(\'' + data[i].location_identifier + '\',\'' + data[i].plant_nickname + '\')">Show temperature</button>'
+			+ '<br><button onClick="showGraphMoisture(\'' + data[i].location_identifier + '\',\'' + data[i].plant_nickname + '\')">Show soil moisture</button>');
+			}
+		}
+	});
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("You clicked the map at " + e.latlng.toString())
+			.openOn(mymap);
+	}
+
+	mymap.on('click', onMapClick);
+
+</script>
+</body></html>

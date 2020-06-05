@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script type="text/javascript” src=”ply.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script>
+	  $( function() {
+		var dateFormat = "mm-dd-yy",
+		  from = $( "#from" )
+			.datepicker({
+			  defaultDate: "+1w",
+				changeMonth: true,
+				changeYear: true
+			})
+			.on( "change", function() {
+			  to.datepicker( "option", "minDate", getDate( this ) );
+			}),
+		  to = $( "#to" ).datepicker({
+			defaultDate: "+1w",
+				changeMonth: true,
+				changeYear: true
+		  })
+		  .on( "change", function() {
+			from.datepicker( "option", "maxDate", getDate( this ) );
+		  });
+	 
+		function getDate( element ) {
+		  var date;
+		  try {
+			date = $.datepicker.parseDate( dateFormat, element.value );
+		  } catch( error ) {
+			date = null;
+		  }
+	 
+		  return date;
+		}
+	  } );
+	  $ (function() {
+	  	$( "#from" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+		$( "#to" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+		$( "#from" ).datepicker( "setDate", "2016-11-01" );
+		$( "#to" ).datepicker( "setDate", "2016-12-01" );
+	  });
+	  </script>
+</head>
+<body>
+<h1>Demo Hoeve Boveneind</h1>
+<p>Koe: <select id="koe-dropdown" name="koe" ></select></p>
+<p>Sensor: <select id="sensor-dropdown" name="sensor" ></select></p>
+
+<!-- date picker -->
+<label for="from">From</label>
+<input type="text" id="from" name="from">
+<label for="to">to</label>
+<input type="text" id="to" name="to">
+
+<!-- Button to update graph -->
+<button onclick="upDateGraph()">Show graph</button>
+<div id ="graph"></div>
+<div id ="map"></div>
+
+<!-- Script to populate dropdownlist -->
+<script>
+// Init dropdown koenummer
+let dropdown = $('#koe-dropdown');
+dropdown.empty();
+dropdown.append('<option selected="true" disabled>Kies koe</option>');
+dropdown.prop('selectedIndex', 0);
+const url = 'http://localhost:3000/koenummer';
+
+// Populate dropdown with koenummers
+$.getJSON(url, function (data) {
+  $.each(data, function (key, entry) {
+    dropdown.append($('<option></option>').attr('value', entry.koenummer).text(entry.koenummer));
+  })
+});
+</script>
+
+<script>
+// Init dropdown sensor
+let dropdown_sensor = $('#sensor-dropdown');
+dropdown_sensor.empty();
+dropdown_sensor.append('<option selected="true" disabled>Kies sensor</option>');
+dropdown_sensor.prop('selectedIndex', 0);
+
+// Populate with sensors
+dropdown_sensor.append($('<option selected="selected" ></option>').attr('value', 1).text("eatingdata"));
+dropdown_sensor.append($('<option></option>').attr('value', 2).text("legactivitydata"));
+dropdown_sensor.append($('<option></option>').attr('value', 3).text("lyingtimedata"));
+dropdown_sensor.append($('<option></option>').attr('value', 4).text("lyingtostandingcountdata"));
+</script>
+
+<!-- Script to plot function -->
+<script>
+function upDateGraph(){
+	
+	// init
+	let xl = [];
+	let yl = [];
+	
+	// Set date format
+	$( "#from" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+	$( "#to" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+	
+	// Get input value
+	var fromDate = document.getElementById("from").value
+	var toDate = document.getElementById("to").value
+	var koeId = document.getElementById("koe-dropdown").value;
+	var sensor = document.getElementById("sensor-dropdown")[document.getElementById("sensor-dropdown").value].innerText;
+	console.log(sensor)
+	console.log(koeId)
+	console.log($( "#from" ).datepicker( "option", "dateFormat" ))
+	console.log("ToDate " + document.getElementById("to").value);
+	console.log("FromDate " + document.getElementById("from").value);
+
+	// Get data
+	const qry = "http://localhost:3000/" + sensor + "?and=(koenummer.eq." + koeId + ",tijdslot.gte." + fromDate +",tijdslot.lt." + toDate + ")"
+	console.log(qry)
+	d3.json(qry, function(data) {
+    for (var i = 0; i < data.length; i++) {
+        //console.log(data[i].koenummer);
+        //console.log(data[i].tijdslot);
+		//console.log(data[i].eettijd);
+		xl.push(data[i].tijdslot);
+		if (sensor === "eatingdata") {
+			yl.push(data[i].eettijd);
+		}
+		if (sensor === "legactivitydata") {
+			yl.push(data[i].legactivity);
+		}
+		}
+	let trace = {x: xl, y: yl};
+	Plotly.newPlot(document.getElementById("graph"), [trace]); 
+	});
+	
+	// Get data to plot koe om map
+	let x2 = [];
+	let y2 = [];
+
+	// Get data
+	const qry2 = "http://localhost:3000/locations?and=(responder.eq.984000713803661)"
+	console.log(qry2)
+	d3.json(qry2, function(data) {
+    for (var j = 0; j < data.length; j++) {
+		x2.push(data[j].locationx);
+		y2.push(data[j].locationy);
+		}
+	let trace2 = {x: x2, y: y2, mode: 'markers', type: 'scatter'};
+	Plotly.newPlot(document.getElementById("map"), [trace2]); 
+	});
+}
+</script>
+</body>
+</html>
+<!-- Datepicker: https://api.jqueryui.com/datepicker/ -->
