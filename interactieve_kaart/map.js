@@ -14,8 +14,11 @@ $(document).ready(function() {
 	});
 	
 	// Define map overlays
-	var wmsLayer = L.tileLayer.wms('http://ows.mundialis.de/services/service?', {
-		layers: 'SRTM30-Colored-Hillshade'
+	var dylaBodemLayer = L.tileLayer.wms('http://localhost:8080/geoserver/dyla/wms?' , {
+		layers: 'dyla_bodem',
+		transparent: true,
+		format: 'image/png',
+		opacity: 0.5
 	});
 	
 	// Define overlay with markers
@@ -26,7 +29,7 @@ $(document).ready(function() {
 	let mapOptions = {
 		zoomControl: true,
 		center: [52,5],
-		zoom: 8,
+		zoom: 12,
 		layers: [mapBox, markerOverlay]
 	}
 	
@@ -36,11 +39,12 @@ $(document).ready(function() {
 	// Define layer switcher 
 	var baseMaps = {
 		"MapBox" : mapBox,
-		"CartoMap" : cartoMap
+		"CartoMap" : cartoMap,
+		"dylaBodem": dylaBodemLayer
 	};
 	var overlayMaps = {
-		"Markers" : markerOverlay,
-		"WMS" : wmsLayer
+		"Markers" : markerOverlay
+		//"dylaBodem": dylaBodemLayer
 	};
 	
 	// Ad to map

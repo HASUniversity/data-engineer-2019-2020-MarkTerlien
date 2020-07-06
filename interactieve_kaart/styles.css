@@ -1,17 +1,51 @@
-body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
 
-  #kaart {
-      height: 500px;
-      width: 95%;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: lightgrey;
-  }
+/* Style of standard tags */
+body {
+  background-color: #222629;
+}
+
+h1 {
+  color: #edf5e1;
+}
+p {
+  color: #6B6E70;
+}
+
+/* Style the header */
+.header {
+  background-color: #222629;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #61892F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #edf5e1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #86c232;
+  color: edf5e1;
+}
+
+/* Define size of the map element */
+#kaart {
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222629;
+}
+
